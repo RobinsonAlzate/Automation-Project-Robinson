@@ -57,7 +57,7 @@ az account show --output table
 ```
 cd "$(dirname "$(find /mnt/c/Users/robin -maxdepth 9 -type d -name project-8935 2>/dev/null | head -n1)")/project-8935"
 ```
-*On a new computer, where the folder does not exist yet, I clone the repository instead (username `RobinsonAlzate`, password = my GitHub token):*
+*I clone the repository instead (username `RobinsonAlzate`, password = my GitHub token):*
 ```
 git clone https://github.com/RobinsonAlzate/Automation-Project-Robinson.git
 ```
